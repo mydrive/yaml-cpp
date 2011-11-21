@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.6)
 
 project (YAML_CPP)
 
-set(LIB_TYPE SHARED)
+set(LIB_TYPE STATIC)
 
 if(IPHONE)
   set(CMAKE_OSX_SYSROOT iphoneos2.2.1)
